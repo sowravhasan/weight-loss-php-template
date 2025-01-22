@@ -1,0 +1,352 @@
+/* 
+  ------------------------------------------------
+    ------------------------------------------------
+*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	font-size:18px;
+	line-height:24px;
+	font-weight:normal;
+}
+img {vertical-align: bottom;}
+p
+{
+	margin:7px 0px;
+	text-align: justify;
+}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, 
+progress, section, source, video {display:block;}
+.zerogrid{ width: 1000px; position: relative; margin: 0 auto; padding: 0; text-align:center;}
+
+.content-wrapper {
+	margin: 0px;
+	overflow: hidden;
+	padding:0px;
+}
+
+/* ------------------Content------------------- */
+#content {}
+#content .top
+{ width:100%; height: auto; float:left; text-align:center; background-color: #007dbd; padding-top:24px; padding-bottom:24px;}
+
+.top-inside
+{
+	width:100%; height:auto; float:left; text-align:left;}
+.top-left
+{
+	width:47%;
+	height: auto;
+	float:left;
+	text-align:left;
+}
+.top-left-box{ width:41%; height:auto; float:left; text-align:left;}
+.top-middle-box{ width:58.8%; height:auto; float:right; text-align:left; padding-top:14px; font-size:14px; line-height:20px; color:#FFF; font-weight:bold; 
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase;}
+.top-right
+{
+	width:50%;
+	height:auto;
+	float:right;
+	text-align:right;
+}
+
+#welcome{ height:600px; float:left; text-align:center; width:100%; background:url(../images/welcome-bg.jpg) center top no-repeat;}
+  .welcome-inside { width:100%; height:auto; float:left; text-align:left;} 
+.welcome-left { width:68%; height:auto; float:left; text-align:left; padding-top:218px;}
+.welcome-left h2.styleFontface
+{
+	font-family: leaguegothic-regular;
+	font-size:103px;
+	line-height:103px;
+	color: #FFF;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: uppercase;
+}
+.welcome-left h3.styleFontface
+{
+	font-family: leaguegothic-regular;
+	font-size:40px;
+	line-height:40px;
+	color: #FFF;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: uppercase;
+}
+
+
+.form-box { width:25%; height: auto; float:right; text-align:left; padding-bottom:30px;}
+
+.form-title { width:100%; height:auto; float:left; text-align:left; padding-top:40px; padding-bottom:24px; font-size:11px; line-height:14px; 
+color: #FFF; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+.form-title h2.styleFontface
+{
+	font-family: leaguegothic-regular;
+	font-size:53px;
+	line-height:53px;
+	color: #FFF;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: uppercase;
+}
+.form-inside { width:100%; height:auto; float:left; text-align:left; }
+
+.input-box
+{
+width:95%;
+height:30px;
+font-size:14px;
+line-height:30px;
+color: #2c251f;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif; text-transform: uppercase;
+padding-left:10px;
+padding-top:8px;
+padding-bottom:6px;
+background-color: #FFF; border:none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; margin-bottom:7px;
+}
+input:focus
+{
+	outline:none;
+}
+.comment
+{
+width:90%;
+height:84px;
+font-size:14px;
+line-height:30px;
+color: #2c251f;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif; text-transform: uppercase;
+padding-top:5px; padding-bottom:5px; padding-left:5%; padding-right:5%;
+background-color: #FFF; border:none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+}
+
+.button {
+	background: #bfd630;
+	text-align:center;
+	float:left;
+	padding:20px 0px;
+	width:100%;
+	height: auto;
+	text-decoration:none;
+	font-size:18px;
+	line-height:30px;
+	color: #FFF;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	 margin-top:30px;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+}
+.button:hover {
+	background: #b2c926;
+	text-align:center;
+	float:left;
+	padding:20px 0px;
+	width:100%;
+	height: auto;
+	text-decoration:none;
+	font-size:18px;
+	line-height:30px;
+	color: #FFF;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	 margin-top:30px;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+}
+
+.services-box { width:100%; height:auto; float:left; text-align:center; padding-top:72px; padding-bottom:64px;}
+.content-title { width:100%; height:auto; float:left; text-align:center; text-transform:uppercase;} .content-title p { margin:7px 0px 7px 0px; text-align:center;}
+.services { width:100%; height:auto; float:left; text-align:left; padding-top:36px;} .services ul { margin:0px; padding:0px; list-style-type:none;}
+.services ul li { width:30%; height:auto; float:left; text-align:center; display:block; margin-right:5%;} .services ul li p { margin:18px 0px 7px 0px; text-align:center;}
+.services ul li img
+{
+	height: auto !important;
+	width: auto !important;
+	max-width: 100%; margin-bottom:20px;
+}
+.services ul li h2.styleFontface
+{
+	font-family: leaguegothic-regular;
+	font-size:36px;
+	line-height:36px;
+	color: #007dbd;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: uppercase;
+}
+
+
+.content-box { width:100%; height:auto; float:left; text-align:center; background-color: #007dbd;}
+.content-inside { width:100%; height:auto; float:left; text-align:left; color: #FFF;}
+.content-left { width:50%; height:auto; float:left; text-align:left;}
+.content-left img
+{
+	height: auto !important;
+	width: auto !important;
+	max-width: 100%;
+}
+.content-right { width:45%; height:auto; float:right; text-align:left; padding-top:70px;} .content-right p { margin:18px 0px 7px 0px; text-align:left;}
+
+.content-middle-left { width:45%; height:auto; float:left; text-align:left; padding-top:70px;} 
+.content-middle-left p { margin:18px 0px 7px 0px; text-align:left;}
+.content-middle-right { width:50%; height:auto; float:right; text-align:right;}
+.content-middle-right img
+{
+	height: auto !important;
+	width: auto !important;
+	max-width: 100%;
+}
+.button2 {
+	background: #bfd630;
+	text-align:center;
+	float:left;
+	padding:20px 0px;
+	width:54%;
+	height: auto;
+	text-decoration:none;
+	font-size:18px;
+	line-height:30px;
+	color: #FFF;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	 margin-top:28px;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+}
+.button2:hover {
+	background: #b2c926;
+	text-align:center;
+	float:left;
+	padding:20px 0px;
+	width:54%;
+	height: auto;
+	text-decoration:none;
+	font-size:18px;
+	line-height:30px;
+	color: #FFF;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	 margin-top:28px;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+}
+
+.testimonial-box { width:100%; height:auto; float:left; text-align:center; padding-top:80px; padding-bottom:74px;}
+.testimonial-inside { width:100%; height:auto; float:left; text-align:center;} .testimonial-inside p { margin:10px 0px 20px 0px; text-align:center;}
+.testimonial-inside img
+{
+	height: auto !important;
+	width: auto !important;
+	max-width: 100%; margin-bottom:30px;
+}
+
+
+
+.clear
+{
+	clear:both;
+}
+/* ------------------Footer-------------------- */
+footer .wrap-footer{ }
+footer
+{
+	width:100%;
+	height:auto;
+	float:left;
+	text-align:center;
+	background-color:#007dbd;
+}
+.footer-main-box
+{
+	width:100%; height:auto; text-align:center; float:left; font-size:18px; line-height:24px; color: #FFF;
+font-weight:normal; font-family:Arial, Helvetica, sans-serif; padding-top:38px; padding-bottom:38px;
+}
+.footer-main-box a
+{
+	font-size:18px; line-height:24px; color: #FFF;
+font-weight:normal; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+}
+.footer-main-box a:hover
+{
+	font-size:18px; line-height:24px; color: #e4ff00;
+font-weight:normal; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+}
+
+/*Heading styles*/
+h1, h2, h3, h4 {
+	margin: 0px;
+	padding:0px;
+}
+@font-face
+{
+ font-family: 'leaguegothic-regular';
+ src: url(../leaguegothic-regular.ttf)
+}
+
+h1.styleFontface
+{
+	font-family: leaguegothic-regular;
+	font-size:72px;
+	line-height:72px;
+	color: #FFF;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: uppercase;
+}
+h2.styleFontface
+{
+	font-family: leaguegothic-regular;
+	font-size:48px;
+	line-height:48px;
+	color: #007dbd;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: uppercase;
+}
+h3.styleFontface
+{
+	font-family: leaguegothic-regular;
+	font-size:48px;
+	line-height:48px;
+	color: #FFF;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: none;
+}
+h4.styleFontface
+{
+	font-family: leaguegothic-regular;
+	font-size:52px;
+	line-height:52px;
+	color: #FFF;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: uppercase;
+}
+h5.styleFontface
+{
+	font-family: leaguegothic-regular;
+	font-size:48px;
+	line-height:48px;
+	color: #FFF;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: uppercase; margin:0px; padding:0px;
+}

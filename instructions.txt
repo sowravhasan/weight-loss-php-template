@@ -1,0 +1,5 @@
+1. Please add your desired email address on line no 10  of  file Common.php to receive the lead details to your email.
+
+2. You can edit the content of this landing page in any HTML editor or notepad++.
+
+3. Support tutorials: https://support.buylandingpagedesign.com/
